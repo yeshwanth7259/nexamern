@@ -19,7 +19,12 @@ const Login = () => {
       toast.success('Login successful!');
       navigate('/dashboard');
     } catch (error) {
-      toast.error(error.response?.data?.message || 'Login failed');
+      console.error('Login error:', error);
+      if (!error.response) {
+        toast.error('Network Error: Cannot connect to the server.');
+      } else {
+        toast.error(error.response?.data?.message || 'Login failed');
+      }
     } finally {
       setIsLoading(false);
     }
