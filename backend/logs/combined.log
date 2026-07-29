@@ -47,3 +47,15 @@
 {"level":"info","message":"Completed ROI processing for 2026-07-27. Processed: 1, Skipped: 1, Errors: 0","timestamp":"2026-07-27T16:38:20.908Z"}
 {"level":"info","message":"Starting daily ROI processing for 2026-07-27","timestamp":"2026-07-27T16:48:29.525Z"}
 {"level":"info","message":"Completed ROI processing for 2026-07-27. Processed: 1, Skipped: 2, Errors: 0","timestamp":"2026-07-27T16:48:29.734Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-07-29T02:51:23.472Z"}
+{"level":"info","message":"MongoDB Connected: ac-dj47m63-shard-00-00.llkxfg2.mongodb.net","timestamp":"2026-07-29T02:51:23.845Z"}
+{"level":"error","message":"Email already registered","stack":"Error: Email already registered\n    at AuthService.register (C:\\assignement\\mern-investment-platform\\backend\\src\\services\\auth.service.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async exports.register (C:\\assignement\\mern-investment-platform\\backend\\src\\controllers\\auth.controller.js:6:18)","timestamp":"2026-07-29T02:51:49.656Z"}
+{"level":"error","message":"Invalid referral code","stack":"Error: Invalid referral code\n    at AuthService.register (C:\\assignement\\mern-investment-platform\\backend\\src\\services\\auth.service.js:22:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async exports.register (C:\\assignement\\mern-investment-platform\\backend\\src\\controllers\\auth.controller.js:6:18)","timestamp":"2026-07-29T02:52:15.256Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-07-29T02:57:17.624Z"}
+{"level":"info","message":"MongoDB Connected: ac-dj47m63-shard-00-00.llkxfg2.mongodb.net","timestamp":"2026-07-29T02:57:17.993Z"}
+{"level":"info","message":"Starting daily ROI processing for 2026-07-29","timestamp":"2026-07-29T02:59:30.220Z"}
+{"level":"info","message":"Completed ROI processing for 2026-07-29. Processed: 4, Skipped: 0, Errors: 0","timestamp":"2026-07-29T02:59:31.006Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-07-29T03:00:41.584Z"}
+{"level":"info","message":"MongoDB Connected: ac-dj47m63-shard-00-00.llkxfg2.mongodb.net","timestamp":"2026-07-29T03:00:41.938Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-07-29T03:21:43.503Z"}
+{"level":"info","message":"MongoDB Connected: ac-dj47m63-shard-00-00.llkxfg2.mongodb.net","timestamp":"2026-07-29T03:21:43.924Z"}
